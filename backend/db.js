@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { setTheUsername } = require("whatwg-url");
+
 
 const UserSchema = new mongoose.Schema({
     firstName:{
